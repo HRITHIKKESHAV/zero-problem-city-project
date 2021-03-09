@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: Century gothic;
+}
+
+header{
+	background-image: url(admin.jpg);
+	padding-top: 20px;
+	padding-right: 10px;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}	
+
+
+.title{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	text-shadow: 5px 5px black;
+}
+
+.title h2{
+	text-shadow: 0.3px 0.3px white;
+}
+.title h1, h2{
+	float:center;
+	color: #fff;
+	font-size: 60px;	
+}
+
+h2{
+	position: relative;
+	left:150px;
+	float:center;
+	font-size: 40px;
+	color:white;	
+}
+
+
+select{
+	position: absolute;
+	width:210px;
+	left:340px;
+	border:none;
+	outline: none;
+	border-radius: 5px;
+	height: 23px;
+}
+
+.name,#myform,.regdt,.cat{
+	margin-top: 5px;
+	padding:10px 50px;
+	background-color:#e8e8e8;
+	width: 500px;
+	font-weight: 700;
+	border-radius: 15px;
+	color:black;
+	font-size: 19px;
+}
+
+.sub,.so{
+	background-color: grey;
+	display: block;
+	margin:10px 0px 0px 10px;
+	text-align: center;
+	border-radius: 15px;
+	border:2px solid #366473;
+	outline: none;
+	color:white;
+	width:180px;
+	text-decoration:none;
+	transition:0.6s ease;
+	font-size: 20px;
+	padding:2px 5px;
+	position: relative;
+	left:332px;
+}
+
+
+.so{
+	font-weight: normal;
+}
+
+.ans{
+	background-color: grey;
+	color:white;
+	width:550px;
+	height: 100px;
+	border-radius: 15px;
+	position: relative;
+	left:0px;
+	padding-left: 50px;
+	font-size: 16px;
+}
+
+h3{
+	position: absolute;
+	top:47%;
+	left:55%;
+}
+
+.comp{
+	margin-top: 5px;
+	padding:10px 50px;
+	background-color:#e8e8e8;
+	width: 500px;
+	font-weight: 700;
+	border-radius: 15px;
+	color:blackce;
+	font-size: 19px;
+	position: relative;
+	left:0px;
+}
+
+header{
+	text-align: center;
+}
+
+header a{
+	position: relative;
+	left:650px;
+	color:#456268;
+	padding:5px 10px;
+	border:3px solid white;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header a:hover{
+	background-color:black;
+	color: white;
+	transition:0.6s ease;
+	cursor: pointer;
+}
+
+a:hover,.sub:hover{
+	background-color:black;
+	color: white;
+	transition:0.6s ease;
+	cursor: pointer;
+}
+
+.alig{
+	position: absolute;
+	top:20%;
+	left:30%;
+}
+
+.box{
+	padding:10px 50px;
+	background-color: #e8e8e8;
+	width: 200px;
+	height: 140px;
+	font-weight: 700;
+	border-radius: 15px;
+	color:black;
+	font-size: 20px;
+	position: absolute;
+	left:-715px;
+	top:-190px;
+	animation-name: example;
+  	animation-duration: 3s;
+}

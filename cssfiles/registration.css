@@ -1,0 +1,230 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century gothic;
+}
+
+body{
+	background-position: center;
+	background-image:url(registration.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.regform {
+	width:700px;
+	background-color:black;
+	margin:auto;
+	position: relative;
+	top:60px;
+	color:white;
+	padding:10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+	background-color: #e8e8e8;
+	width: 700px;
+	height: 530px;
+	border-radius: 0px 0px 15px 15px;
+	margin: auto;
+	position: relative;
+	top:60px;
+	color: white;
+}
+
+form{
+	padding:10px;
+
+}
+#name{
+ width: 100%;
+ height: 100px;	
+}
+
+.name{
+	margin-left: 25px;
+	margin-top: 40px;
+	width: 125px;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.firstname,.lastname{
+	position: relative;
+	line-height: 40px;
+	border-radius: 6px;
+	padding:0 22px;
+	font-size: 20px;
+	width:25%;
+	background-color: transparent;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #456268;
+}
+
+.firstname
+{
+	left:200px;
+	top:-37px;
+	color: grey;
+}
+
+.lastname{
+	left:360px;
+	top:-79px;
+	color: grey;
+}
+
+.firstlabel, .lastlabel{
+	position: relative;
+	color:black ;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.firstlabel{
+	left: 208px;
+	top: -45px;
+}
+
+.lastlabel{
+	left:150px;
+	top: -45px;
+}
+
+.age{
+	position:relative;
+	left: 200px;
+	top:-37px;
+	line-height: 40px;
+	width: 32px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	color: grey;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #456268;
+}
+
+.name,.ageh2,.emailh2,.passwordh2, .confirmpasswordh2{
+	margin-left: 25px;
+	color:black;
+}
+
+.email{
+	position:relative;
+	left: 200px;
+	top:-37px;
+	line-height: 40px;
+	width: 390px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	color: grey;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #456268;
+}
+
+
+.password{
+	position:relative;
+	left: 200px;
+	top:-37px;
+	line-height: 40px;
+	width: 390px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	color: grey;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #456268;
+}
+
+.confirmpassword{
+	position:relative;
+	left: 200px;
+	top:-37px;
+	line-height: 40px;
+	width: 390px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 20px;
+	color: grey;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #456268;
+}
+
+input[type = "submit"]{
+	background-color: grey;
+	display: block;
+	margin:20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border:2px solid #366473;
+	padding: 7px 50px;
+	outline: none;
+	color:white;
+	transition:0.25px;
+	position: relative;
+	left:420px;
+	top:-32px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+header{
+	padding-top: 15px;
+	padding-right: 10px;
+}
+	
+ul{
+	float: right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;	
+}
+
+ul li a{
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	transition: 0.06s ease;
+}
+ul li.active a{
+	background-color: #fff;
+	color:#000;
+}
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+	cursor: pointer;
+}
+input[type = submit]:hover{
+	background-color: black;
+	color: white;
+	cursor:pointer;
+	cursor: pointer;
+}
+
+input[type = submit] a{
+	text-decoration: none;
+	cursor:pointer;
+	color: white;
+	font-size: 20px;
+}

@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century gothic;
+}
+
+header{
+	background-image: url(imagedet.jpg);
+	padding-top: 15px;
+	padding-right: 10px;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.no{
+	position: absolute;
+	top:250px;
+	left:490px;
+	color: grey;
+}
+
+.title{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	float:center;
+	color: #fff;
+	font-size: 60px;
+	text-shadow: 5px 5px black;
+}
+
+h2{
+	position: absolute;
+	top: 30px;
+	left: 40%;
+}
+
+.box{
+	margin-left: 25px;
+	margin-top: 20px;
+	padding:10px 50px;
+	background-color:#e8e8e8;
+	font-weight: 700;
+	border-radius: 25px;
+	color:black;
+	position: absolute;
+	font-size: 19px;
+	height: 550px;
+	width: 1200px;
+	top:130px;
+	left:75px;
+}
+
+.first{
+	position:absolute;
+	left:130px;
+	top:250px;
+	border-radius: 10%;
+	border: 2.5px solid black;
+}
+
+.second{
+	position:absolute;
+	left:550px;
+	top:250px;
+	border-radius: 5%;
+	border: 2.5px solid black;
+}
+
+.third{
+	position:absolute;
+	left:970px;
+	top:250px;
+	border-radius: 5%;
+	border: 2.5px solid black;
+}
+
+.first2{
+	position:absolute;
+	left:240px;
+	top:250px;
+	border-radius: 5%;
+	border: 2.5px solid black;
+}
+
+.third2{
+	position:absolute;
+	left:850px;
+	top:250px;
+	border-radius: 5%;
+	border: 2.5px solid black;
+}
+
+.icon {
+  position: absolute;
+  top: 30%;
+  left: -60%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 0px;
+  width: 90%;
+  height: 10px;
+  background-color: white;
+  border-style: groove;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 1);
+  animation: arrow 700ms linear infinite;
+}
+
+.arrow::after, .arrow::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  right: 35px;
+  background-color: white;
+  border-style: groove;
+}
+
+.arrow::after {
+  top: -12px;
+  transform: rotate(-45deg);
+}
+
+.arrow::before {
+  top: 12px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 1);
+  transform: rotate(45deg);
+}
